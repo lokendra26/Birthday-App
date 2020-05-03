@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Video_One"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/VideoOne" />
+        <item
+            android:id="@+id/Video_Two"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/VideoTwo" />
+        <item
+            android:id="@+id/Video_Three"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/VideoThree" />
+        <item
+            android:id="@+id/Video_Four"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/VideoFour" />
+        <item
+            android:id="@+id/Video_Five"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/VideoFive" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="@string/About" />
+        </menu>
+    </item>
+
+</menu>
