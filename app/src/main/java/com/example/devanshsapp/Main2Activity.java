@@ -90,22 +90,32 @@ public class Main2Activity extends AppCompatActivity
         if (id == R.id.Video_One) {
             // Handle the camera action
             Intent intent =new Intent(this,firstvideo.class);
+            String str="one";
+            intent.putExtra("value", str);
             startActivity(intent);
 
         } else if (id == R.id.Video_Two) {
-            Intent intent =new Intent(this,secondvideo.class);
+            Intent intent =new Intent(this,firstvideo.class);
+            String str="two";
+            intent.putExtra("value", str);
             startActivity(intent);
 
         } else if (id == R.id.Video_Three) {
-            Intent intent =new Intent(this,thirdvideo.class);
+            Intent intent =new Intent(this,firstvideo.class);
+            String str="three";
+            intent.putExtra("value", str);
             startActivity(intent);
 
         } else if (id == R.id.Video_Four) {
-            Intent intent =new Intent(this,fourthvideo.class);
+            Intent intent =new Intent(this,firstvideo.class);
+            String str="four";
+            intent.putExtra("value", str);
             startActivity(intent);
 
         } else if (id == R.id.Video_Five) {
-            Intent intent =new Intent(this,fifthvideo.class);
+            Intent intent =new Intent(this,firstvideo.class);
+            String str="five";
+            intent.putExtra("value", str);
             startActivity(intent);
 
         } else if (id == R.id.about) {
